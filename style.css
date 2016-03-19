@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	min-height: 90vh;
+	margin: 5vh auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.avatar > img {
+	border-radius: 50%;
+	width: 200px;
+}
+.info {
+	margin: 10px 0;
+	padding: 10px 10px;
+	text-align: center;
+}
+h2 {
+	color: #666;
+	font-weight: normal;
+	fill: currentColor;
+}
+.info:hover h2 {
+	fill: #f55;
+}
+.list > a {
+	display: block;
+	padding: 5px 10px;
+}
+a, a:visited {
+	color: currentColor;
+}
+.list > a:hover, .list > a:focus {
+	background: #f55;
+	color: #fff;
+}
+a {
+	text-decoration: none;
+}
