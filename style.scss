@@ -23,10 +23,13 @@ button {
 a {
 	display: block;
 	padding: 0.5rem $golden;
-}
-a, a:visited {
-	color: currentColor;
 	text-decoration: none;
+	&:visited {
+		color: currentColor;
+	}
+	&:hover {
+		color: #ff5252;
+	}
 }
 header {
 	width: 300px;
@@ -68,9 +71,6 @@ section {
 	h1 {
 		text-align: center;
 	}
-}
-.thing {
-	height: 80vh;
 }
 
 $breakpoint: 1024px;

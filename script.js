@@ -10,6 +10,7 @@ $(function() {
 		$('section.active').animated('fadeOutUpBig');
 		$(target).animated('fadeInUpBig');
 	});
+	if (window.location.hash) $('nav a[href="'+window.location.hash+'"]').click();
 
 	/// 3js
 	var hash3 = $('#three');
