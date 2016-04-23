@@ -24,8 +24,8 @@ a {
 	display: block;
 	padding: 0.5rem $golden;
 	text-decoration: none;
-	&:visited {
-		color: currentColor;
+	&, a:visited {
+		color: #000;
 	}
 	&:hover {
 		color: #ff5252;
@@ -102,6 +102,9 @@ $navWidth: 256px;
 	}
 	a {
 		padding: 1rem $golden;
+		&, a:visited {
+			color: #fff;
+		}
 	}
 	main {
 		width: 100vw;
